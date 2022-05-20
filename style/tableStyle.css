@@ -1,0 +1,26 @@
+.case{
+    border-width: 2px;
+    height: 3vw;
+    width: 3vw;
+    border-color: black;
+    border-style: solid;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+.case.open{
+    background-color: brown;
+    color: black;
+}
+.case.close{
+    background-color: grey;
+}
+.case.gameOver{
+    background-color: red;
+}
+.case.wine{
+    background-color: green;
+}
+.case.flag{
+    background-color: orange;
+}
